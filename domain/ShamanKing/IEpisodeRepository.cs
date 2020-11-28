@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ShamanKing
 {
-    interface IEpisodeRepository
+    public interface IEpisodeRepository
     {
         Episode[] GetAllByTitle(string titlePart);//этот метод будет получать часть названия, и возращать эпизод
     }
