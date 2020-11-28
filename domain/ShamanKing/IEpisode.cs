@@ -6,6 +6,6 @@ namespace ShamanKing
 {
     interface IEpisode
     {
-        Episode[] GetAllTitle(string titlePart);//этот метод будет получать часть названия, и возращать эпизод
+        Episode[] GetAllByTitle(string titlePart);//этот метод будет получать часть названия, и возращать эпизод
     }
 }
