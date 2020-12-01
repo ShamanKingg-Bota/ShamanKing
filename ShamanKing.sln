@@ -4,16 +4,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{C2559AB0-8D59-45D6-9594-9818DB669E0F}"
+	ProjectSection(SolutionItems) = preProject
+		H.html = H.html
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShamanKing", "domain\ShamanKing\ShamanKing.csproj", "{DFFEDB54-6038-470C-8727-0EC6A38BCF31}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{F8F2B663-3E4B-4F8B-A798-8928AD592A1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shaman.Memory", "infrastructure\Shaman.Memory\Shaman.Memory.csproj", "{EE096996-BB90-47CA-ABD4-F68DBE2B4034}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shaman.Memory", "infrastructure\Shaman.Memory\Shaman.Memory.csproj", "{EE096996-BB90-47CA-ABD4-F68DBE2B4034}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{E64A4B64-9711-4474-81CA-8219D2479911}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shaman.Web", "presentation\Shaman.Web\Shaman.Web.csproj", "{47BBB514-7302-4F43-80D1-EF164811AAC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shaman.Web", "presentation\Shaman.Web\Shaman.Web.csproj", "{47BBB514-7302-4F43-80D1-EF164811AAC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
